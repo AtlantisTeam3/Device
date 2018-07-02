@@ -81,17 +81,17 @@ void loopreadDatas(){
  float hic = dht.computeHeatIndex(t, h, false);
  
  //Affichages :
- Serial.print("Humidite: ");
- Serial.print(h);
- Serial.print(" %\t");
- Serial.print("Temperature: ");
+// Serial.print("Humidite: ");
+// Serial.print(h);
+// Serial.print(" %\t");
+// Serial.print("Temperature: ");
  Serial.print(t);
- Serial.print(" *C ");
- Serial.print(f);
- Serial.print(" *F\t");
- Serial.print("Indice de temperature: ");
- Serial.print(hic);
- Serial.print(" *C ");
- Serial.print(hif);
- Serial.println(" *F");
+// Serial.print(" *C ");
+// Serial.print(f);
+// Serial.print(" *F\t");
+// Serial.print("Indice de temperature: ");
+// Serial.print(hic);
+// Serial.print(" *C ");
+// Serial.print(hif);
+// Serial.println(" *F");
 }
